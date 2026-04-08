@@ -56,6 +56,7 @@ def main() -> None:
     elapsed = time.perf_counter() - t0
     print(f"\nОбщее время: {elapsed:.2f} с")
     print("=" * 60)
+    input("\nНажмите Enter для выхода...")
 
 
 if __name__ == "__main__":
